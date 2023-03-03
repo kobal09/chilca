@@ -1,0 +1,9 @@
+esta avanzado el nav de municipalidad (excepto funcionarios)
+en el apartado de tramites y servicios, solo he puesto los link hacia el gob.pe (preuntar que otros tramites y servicio cuenta)
+
+22022023
+aca se ha encontrado una nueva forma de llamar a los datos .json mas entendible y se ha podido implementar para que los datos pintados en el html sean del ultimo al primero y los 3 ultimos
+
+01032023
+se implemento un carousel, pero no se puede hacer que una vez que carge la ultima imagen vuelva al primero.
+

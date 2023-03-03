@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "titulo": "Playa de ensueño",
+      "img_portada": "app/assets/img/slider_main/slider1.jpg",
+      "url": "https://ejemplo.com/playa"
+    },
+    {
+      "id": 2,
+      "titulo": "Aventura en la montaña",
+      "img_portada": "app/assets/img/slider_main/slider2.jpg",
+      "url": "https://ejemplo.com/montana"
+    },
+    {
+      "id": 3,
+      "titulo": "Ciudad cosmopolita",
+      "img_portada": "app/assets/img/slider_main/slider3.jpg",
+      "url": "https://ejemplo.com/ciudad"
+    },
+    {
+      "id": 4,
+      "titulo": "Excursión en la selva",
+      "img_portada": "app/assets/img/slider_main/slider4.jpg",
+      "url": "https://ejemplo.com/selva"
+    },
+    {
+      "id": 5,
+      "titulo": "Aventura en la montaña",
+      "img_portada": "app/assets/img/slider_main/slider2.jpg",
+      "url": "https://ejemplo.com/montana"
+    }
+  
+  ]

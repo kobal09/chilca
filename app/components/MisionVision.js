@@ -1,0 +1,30 @@
+export function MisionVision(){
+  const $mis_vis = document.createElement('section');
+  $mis_vis.classList.add('misionVision', 'py-3');
+  $mis_vis.innerHTML = `
+  <div class="container">
+    <div class="card bg-light">
+        
+          <div class="card-body">
+            <a  class="nav-link disabled"><b>MISIÓN Y VISIÓN</b></a>
+          </div>
+        
+    </div>
+    <div class="card mt-2 bg-light">
+      
+      <div class="completarPantalla card-body d-flex align-items-center">
+        <div>
+        <p class="card-text"><b>Misión</b></p>
+        <p class="card-text">Somos una entidad encargada de proveer bienes y servicios, impulsando al desarrollo integral de la población del distrito de Chilca a través de la generación de valor público, mediante una gestión eficiente, transparente y moderna.</p>
+        <p class="card-text"><b>Visión</b></p>
+        <p class="card-text">Al 2026 ser una municipalidad referente por brindar calidad de vida a todos sus ciudadanos.</p>
+        <p class="card-text"></p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  `;
+  return $mis_vis;
+}

@@ -1,0 +1,136 @@
+/* megamenu */
+.dropdown-menu{
+  width: 100%;
+}
+
+.dropdown-mega .h5{
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid rgba(0,0,0,.125);
+  margin: 0;
+}
+
+.dropdown-mega .list-group-item{
+  font-size: 1rem;
+  color: var(--black-color);
+  border: 0;
+  border-bottom: 1px solid rgba(0,0,0,.125);
+  padding: 0.75rem;
+}
+
+
+
+
+/* scroll comunicados */
+.scroll-contenido{
+	height: 300px;
+	width: auto;
+	border: 1px solid #ddd;
+	overflow-y: scroll;
+}
+
+.scrollspy-example {
+  position: relative;
+  height: 400px;
+  margin-top: .5rem;
+  overflow: auto;
+}
+
+/* cuando aparezca error 404, este es donde se esta estilizando */
+.error {
+  padding: 1rem;
+  font-size: 150%;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  background-color: #dc3545;
+}
+
+.navegador{
+  position: sticky;
+  top:0;
+}
+
+/* usado cuando el contenido de la pagina web no abarca toda la pantalla y
+  el footer se ve muy arriba de la pantalla */
+.completarPantalla{
+  height: 70vh;
+}
+
+
+html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .swiper {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+
+
+/*-------------------------------------
+			MEDIAS QUERYS
+-------------------------------------*/
+@media (max-width: 767px) {
+ 	.scroll_contenido{
+		height: 515px;
+	}
+
+  /* usado para hacer al megamenu del nav, un scroll */
+  .scroll-menu{
+    height: 600px;
+    overflow-y: scroll;
+  }
+
+  
+}	
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px; } 
+
+	.scroll_contenido{
+		height: 500px;
+	}
+
+  
+
+	.scrollspy-example {
+    position: relative;
+    height: 600px;
+    margin-top: .5rem;
+    overflow: auto;
+}
+}	
